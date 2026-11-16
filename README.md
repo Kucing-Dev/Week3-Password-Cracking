@@ -39,30 +39,29 @@ Password cracking is the process of recovering a plaintext password from stored 
 ### Step-by-Step Execution:
 1. **Engine Setup & Configuration:**
    * Installed **Johnny GUI** alongside the **John the Ripper (Jumbo CLI)** distribution.
-<img width="1365" height="763" alt="00_Johnny" src="https://github.com/user-attachments/assets/7b9d84ef-9c91-4439-9b6f-bcfe4cb65a2c" />
+   * <img width="1365" height="763" alt="00_Johnny" src="https://github.com/user-attachments/assets/7b9d84ef-9c91-4439-9b6f-bcfe4cb65a2c" />
 
    * Linked Johnny to the core executable binary (`john.exe` inside the `/run` directory) to enable local hash processing.
-     <img width="1365" height="763" alt="02_john_exe" src="https://github.com/user-attachments/assets/ede9e3a5-e63f-43cb-b8b2-772aa6a14a12" />
+   * <img width="1365" height="763" alt="02_john_exe" src="https://github.com/user-attachments/assets/ede9e3a5-e63f-43cb-b8b2-772aa6a14a12" />
 
 
 1. **PDF Hash Extraction:**
    * Extracted the cryptographic hash string from the encrypted target document (`My Locked PDF1.pdf`) using a `pdf2john`-compatible extractor, generating a string starting with `$pdf$4*4*128*...`.
-     <img width="1365" height="763" alt="04_locked_pdf1" src="https://github.com/user-attachments/assets/116ed26d-2264-47a6-b77d-1d517d957f57" />
-<img width="1365" height="763" alt="05_hash" src="https://github.com/user-attachments/assets/2407b24d-608e-4388-9c59-393f27ef372f" />
+   * <img width="1365" height="763" alt="04_locked_pdf1" src="https://github.com/user-attachments/assets/116ed26d-2264-47a6-b77d-1d517d957f57" />
+   <img width="1365" height="763" alt="05_hash" src="https://github.com/user-attachments/assets/2407b24d-608e-4388-9c59-393f27ef372f" />
 
    * Saved the extracted hash string into a plain text file named `hash1.txt`.
-     
-     <img width="1365" height="763" alt="07_file_hash" src="https://github.com/user-attachments/assets/fa630802-469b-4c00-b60f-578b3d62cec1" />
+   * <img width="1365" height="763" alt="07_file_hash" src="https://github.com/user-attachments/assets/fa630802-469b-4c00-b60f-578b3d62cec1" />
 
 
 2. **Executing the Attack in Johnny:**
    * Loaded `hash1.txt` into Johnny via **Open password file** (`PASSWD` format).
-     <img width="1365" height="763" alt="06_passwd" src="https://github.com/user-attachments/assets/71c972db-d1f6-439c-825a-71d873b2cccd" />
+   * <img width="1365" height="763" alt="06_passwd" src="https://github.com/user-attachments/assets/71c972db-d1f6-439c-825a-71d873b2cccd" />
 
    * Initiated the cracking session by clicking **Start new attack**.
 3. **Result & Verification:**
    * John the Ripper successfully matched the hash against its wordlist and recovered the plaintext password: `good-luck`.
-     <img width="1365" height="763" alt="08_password_result" src="https://github.com/user-attachments/assets/8f55bbac-ad0d-44b3-9659-e7c53a806e9d" />
+   * <img width="1365" height="763" alt="08_password_result" src="https://github.com/user-attachments/assets/8f55bbac-ad0d-44b3-9659-e7c53a806e9d" />
      <img width="1365" height="763" alt="09_congratulations" src="https://github.com/user-attachments/assets/f0c89e44-44e2-4837-bc9a-b4d005eaa721" />
 
 
