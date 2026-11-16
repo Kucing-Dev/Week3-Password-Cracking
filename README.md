@@ -1,13 +1,13 @@
 ## Password Cracking & Hash Extraction Phases
 
-**W3-PM2 | CYBERSECURITY | NETWORKWALKS**
+**W3- PM1 & PM2 | CYBERSECURITY | NETWORKWALKS**
 
 | Field | Detail |
 | :--- | :--- |
 | **Pentester Name** | **Khairunnisya Lubis** |
 | **Program/Batch** | B084-Networkwalks |
 | **Date** | 16 November 2026 |
-| **Modules completed** | W3-PM2 (John the Ripper / Johnny GUI)<br>W3-PM2 (Password Cracking with Networkwalks Tools) |
+| **Modules completed** | W3-PM2 (John the Ripper / Johnny GUI)<br>W3-PM1 & PM2 (Password Cracking with Networkwalks Tools) |
 | **Client/Target** | 1. Networkwalks (secured written permission already)<br>2. Authorized Lab Sample Files (`My Locked PDF1.pdf`) |
 | **Permission secured from client?** | Yes |
 | **Phases covered** | **Phase 1:** Hash Extraction & Format Conversion<br>**Phase 2:** Local Dictionary Attack (John the Ripper / Johnny)<br>**Phase 3:** Web-Based Dictionary Attack (Networkwalks Tools)<br>**Phase 4:** Document Decryption & Flag Verification |
