@@ -48,7 +48,7 @@ Password cracking is the process of recovering a plaintext password from stored 
 1. **PDF Hash Extraction:**
    * Extracted the cryptographic hash string from the encrypted target document (`My Locked PDF1.pdf`) using a `pdf2john`-compatible extractor, generating a string starting with `$pdf$4*4*128*...`.
    * <img width="1365" height="763" alt="04_locked_pdf1" src="https://github.com/user-attachments/assets/116ed26d-2264-47a6-b77d-1d517d957f57" />
-   <img width="1365" height="763" alt="05_hash" src="https://github.com/user-attachments/assets/2407b24d-608e-4388-9c59-393f27ef372f" />
+   * <img width="1365" height="763" alt="05_hash" src="https://github.com/user-attachments/assets/2407b24d-608e-4388-9c59-393f27ef372f" />
 
    * Saved the extracted hash string into a plain text file named `hash1.txt`.
    * <img width="1365" height="763" alt="07_file_hash" src="https://github.com/user-attachments/assets/fa630802-469b-4c00-b60f-578b3d62cec1" />
