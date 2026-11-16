@@ -39,7 +39,7 @@ Password cracking is the process of recovering a plaintext password from stored 
 ### Step-by-Step Execution:
 1. **Engine Setup & Configuration:**
    * Installed **Johnny GUI** alongside the **John the Ripper (Jumbo CLI)** distribution.
-<img width="882" height="693" alt="00_Johnny" src="https://github.com/user-attachments/assets/7b9d84ef-9c91-4439-9b6f-bcfe4cb65a2c" />
+<img width="1365" height="763" alt="00_Johnny" src="https://github.com/user-attachments/assets/7b9d84ef-9c91-4439-9b6f-bcfe4cb65a2c" />
 
    * Linked Johnny to the core executable binary (`john.exe` inside the `/run` directory) to enable local hash processing.
      <img width="1365" height="763" alt="02_john_exe" src="https://github.com/user-attachments/assets/ede9e3a5-e63f-43cb-b8b2-772aa6a14a12" />
