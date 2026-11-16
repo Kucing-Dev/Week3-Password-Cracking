@@ -6,7 +6,7 @@
 | :--- | :--- |
 | **Pentester Name** | **Khairunnisya Lubis** |
 | **Program/Batch** | B084-Networkwalks |
-| **Date** | 16 November 2026 |
+| **Date** | 17 November 2026 |
 | **Modules completed** | W3-PM1 (John the Ripper / Johnny GUI)<br>W3-PM2 (Password Cracking with Networkwalks Tools) |
 | **Client/Target** | 1. Networkwalks (secured written permission already)<br>2. Authorized Lab Sample Files (`My Locked PDF1.pdf`) |
 | **Permission secured from client?** | Yes |
