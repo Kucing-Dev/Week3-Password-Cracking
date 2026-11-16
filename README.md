@@ -76,18 +76,30 @@ To demonstrate browser-based offline/local parsing workflows without local CLI i
 ### Step-by-Step Execution:
 1. **Hash Extraction via Networkwalks Hash Calculator:**
    * Accessed the [Networkwalks Hash Calculator](https://networkwalks.com/hash-calculator/).
+   * <img width="1365" height="767" alt="00_Calculator_hash" src="https://github.com/user-attachments/assets/661d692c-2518-4d63-a6bf-5962b229560d" />
+
    * Uploaded the encrypted file `My Locked PDF1 (for NW Tools Lab WK3-PM2).pdf`, which parsed the file locally in the browser and generated the `pdf2john`/`hashcat`-compatible `$pdf$...` hash string.
+   * <img width="1365" height="766" alt="01_find_file" src="https://github.com/user-attachments/assets/7fade00a-f5d5-4abc-867c-f53693ff6e86" />
+
    * Copied the complete hash value.
+   * <img width="1364" height="761" alt="02_pdf_hash" src="https://github.com/user-attachments/assets/40cea42d-5356-42fd-943e-752ec87dadd6" />
+
 2. **Dictionary Attack via Networkwalks Password Cracker:**
    * Opened the [Networkwalks Password Cracker](https://networkwalks.com/password-cracker/).
+   * <img width="1365" height="765" alt="03_password_cracking" src="https://github.com/user-attachments/assets/6f88ae3b-3114-4985-8cd9-4d6c2a176366" />
+
    * Pasted the extracted `$pdf$...` hash into the **PDF HASH** input field.
    * Selected the **Built-in list** wordlist and clicked **START CRACKING**.
+   * <img width="1365" height="767" alt="04_result" src="https://github.com/user-attachments/assets/a9aa2e4b-d1f5-4bb1-b0f2-b328b6d591ba" />
+
 3. **Document Unlocking & Flag Capture:**
    * Once the dictionary attack succeeded, used the recovered password to unlock the protected PDF document.
    * Verified access by capturing the lab completion flag inside the document:
      ```text
      nw{networkwalks_flag1_jtr_270521_1}
      ```
+     <img width="1365" height="766" alt="05_password_result" src="https://github.com/user-attachments/assets/a18253c3-39bd-49a7-8443-3430b3d6db39" />
+
     
 
 ---
