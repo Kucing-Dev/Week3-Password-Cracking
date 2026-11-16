@@ -57,7 +57,7 @@ To demonstrate browser-based offline/local parsing workflows without local CLI i
 
 ### Step-by-Step Execution:
 1. **Hash Extraction via Networkwalks Hash Calculator:**
-   * Accessed the [Networkwalks Hash Calculator](https://networkwalks.com/hash-calculator/)[cite: 11].
+   * Accessed the [Networkwalks Hash Calculator](https://networkwalks.com/hash-calculator/).
    * Uploaded the encrypted file `My Locked PDF1 (for NW Tools Lab WK3-PM2).pdf`[cite: 24], which parsed the file locally in the browser and generated the `pdf2john`/`hashcat`-compatible `$pdf$...` hash string.
    * Copied the complete hash value.
 2. **Dictionary Attack via Networkwalks Password Cracker:**
@@ -76,5 +76,5 @@ To demonstrate browser-based offline/local parsing workflows without local CLI i
 
 # 5. Key Takeaways & Remediation
 
-* **Vulnerability:** Weak or dictionary-based passwords protecting sensitive documents can be recovered within seconds once the cryptographic hash is extracted[cite: 10, 15].
-* **Remediation:** Enforce strong password policies (minimum 12+ characters combining uppercase, lowercase, numbers, and special symbols) and utilize modern AES-256 encryption standards for sensitive documents[cite: 15].
+* **Vulnerability:** Weak or dictionary-based passwords protecting sensitive documents can be recovered within seconds once the cryptographic hash is extracted.
+* **Remediation:** Enforce strong password policies (minimum 12+ characters combining uppercase, lowercase, numbers, and special symbols) and utilize modern AES-256 encryption standards for sensitive documents.
