@@ -39,7 +39,10 @@ Password cracking is the process of recovering a plaintext password from stored 
 ### Step-by-Step Execution:
 1. **Engine Setup & Configuration:**
    * Installed **Johnny GUI** alongside the **John the Ripper (Jumbo CLI)** distribution.
+     <img width="882" height="693" alt="00_Johnny" src="https://github.com/user-attachments/assets/81812735-beef-4a03-9045-14791c8a2def" />
    * Linked Johnny to the core executable binary (`john.exe` inside the `/run` directory) to enable local hash processing.
+     <img width="1365" height="763" alt="02_john_exe" src="https://github.com/user-attachments/assets/7f1ca65d-36ec-410a-be54-992ad49676ec" />
+
 2. **PDF Hash Extraction:**
    * Extracted the cryptographic hash string from the encrypted target document (`My Locked PDF1.pdf`) using a `pdf2john`-compatible extractor, generating a string starting with `$pdf$4*4*128*...`.
    * Saved the extracted hash string into a plain text file named `hash1.txt`.
