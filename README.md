@@ -58,7 +58,7 @@ To demonstrate browser-based offline/local parsing workflows without local CLI i
 ### Step-by-Step Execution:
 1. **Hash Extraction via Networkwalks Hash Calculator:**
    * Accessed the [Networkwalks Hash Calculator](https://networkwalks.com/hash-calculator/).
-   * Uploaded the encrypted file `My Locked PDF1 (for NW Tools Lab WK3-PM2).pdf`[cite: 24], which parsed the file locally in the browser and generated the `pdf2john`/`hashcat`-compatible `$pdf$...` hash string.
+   * Uploaded the encrypted file `My Locked PDF1 (for NW Tools Lab WK3-PM2).pdf`, which parsed the file locally in the browser and generated the `pdf2john`/`hashcat`-compatible `$pdf$...` hash string.
    * Copied the complete hash value.
 2. **Dictionary Attack via Networkwalks Password Cracker:**
    * Opened the [Networkwalks Password Cracker](https://networkwalks.com/password-cracker/).
